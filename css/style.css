@@ -88,3 +88,24 @@ main{ /** Classe para personalização do main */
     font-family: 'Oswald', sans-serif;
     background-color: #CCCCCC;
 }
+
+.linguagens{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(23, 56, 99);
+    font-family: 'Oswald', sans-serif;
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.imagem{
+    border: 2px solid black;
+    width: 150px;
+    height: 211px;
+}
+
+.html{
+    
+}
