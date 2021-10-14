@@ -109,16 +109,18 @@ main{ /** Classe para personalização do main */
 }
 
 .linguagens{
-    background-color: var(--cor-neutra);
     display: flex;
     flex-direction: row;
     padding: 10px 10px;
     justify-content: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
     flex-wrap: wrap;
     flex: 1 1 300px;
     
+}
+#section{
+    background: linear-gradient(180deg, #30475E, #F05454) no-repeat;
 }
 
 .imagem{
