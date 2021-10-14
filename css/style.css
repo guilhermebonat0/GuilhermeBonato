@@ -6,31 +6,39 @@ header{ /** Classe para personalização do Header */
 
 .cabecalho{ /** Classe para personalização do cabeçalho */  
         padding: 3px 5px;
-}
-
-.logo{ /** Classe para inserção da logo */
-    width: 72px;
-    height: 70px;
-    float: left;
-    background: url(../img/icon-frtend.png) center center/72px no-repeat; /** Adicionando o Icone como BackGround */
-    font-size: 0pt; /** Definindo tamanho da fonte para não aparecer o texto */
-    float: inline-start;
+        width: auto;
+        height: auto;
 }
 
 .txtCabecalho{ /** Classe para personalização do texto ao lado do logo "Guilherme Bonato" */
-    font-size: 28px;
+    font-size: 50px;
     color: #FFF;
     font-weight: bold;
     padding: 3px 5px;
-    font-family: 'Inter', sans-serif
+    font-family: 'Inter', sans-serif;
+    text-align: center;
 
 }
 
-.txt2Cabecalho{ /** Classe para personalização do texto ao lado do logo "Softare Developer" */
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
+.titulop{
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 63px;
     color: #FFF;
-    padding: 2px 5px;
+    font-family: 'Inter', sans-serif; 
+    padding: 50px;
+
+}
+
+.gif{
+    position: relative;
+    margin: auto;
+    width: auto;
+    height: 515px;
+    padding: 5px 5px;
+    background: url(../img/gif-prg.gif) center center/auto no-repeat;    
 
 }
 
@@ -70,16 +78,18 @@ main{ /** Classe para personalização do main */
 
 
 .sobre-titulo{ /** Classe para personalização dos titulos dos textos de informação */
+    margin: 50px 50px;
     display: block;
     padding: 5px 5px;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 36px;
     color: #FFF;
     font-family: 'Inter', sans-serif
 }
 
 .sobre-descricao{/** Classe para formatação de textos sobre minhas informações */
+    margin: auto;
     display: block;
     padding: 5px 5px;
     text-align: center;
@@ -107,11 +117,19 @@ main{ /** Classe para personalização do main */
 }
 
 .imagem{
-    border: 2px solid black;
-    width: 100%;
+    
+    max-width: 150px;
     margin: 10px;
 }
 
-.html{
-    
+.rodape{
+    background: rgb(21, 52, 87);
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif 
+
 }
