@@ -1,6 +1,13 @@
+:root{
+    --cor-principal: #222831;
+    --cor-secundaria: #30475E;
+    --cor-tercearia: #F05454;
+    --cor-neutra: #DDDDDD;
+}
+
 
 header{ /** Classe para personalização do Header */
-    background-color: rgb(21, 52, 87);
+    background-color: var(--cor-principal);
 }
 
 
@@ -59,19 +66,19 @@ header{ /** Classe para personalização do Header */
     color:  rgb(255, 255, 255);   
     display: inline;
     padding: 3px 10px;
-    border: 1px solid rgb(21, 52, 87);
-    background: rgb(21, 52, 87)
+    border: 1px solid var(--cor-principal);
+    background: var(--cor-principal)
 }
 
 .itens:hover{ /** Classe para personalização quando mouse sobre os itens do menu */
-    color: rgb(0, 110, 201);
-    border: 1px solid #153457;
-    width: 1.5px;
+    color: var(--cor-neutra);
+    border: 1px solid var(--cor-principal)0;
+    font-size: 19px;
     
 }
 
 main{ /** Classe para personalização do main */
-    background-color: rgb(23, 56, 99)  ;
+    background-color: var(--cor-secundaria) ;
 
 }   
 
@@ -83,7 +90,7 @@ main{ /** Classe para personalização do main */
     padding: 5px 5px;
     text-align: center;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
     color: #FFF;
     font-family: 'Inter', sans-serif
 }
@@ -93,19 +100,17 @@ main{ /** Classe para personalização do main */
     display: block;
     padding: 5px 5px;
     text-align: center;
-    font-size: 30px;
-    color: rgb(23, 56, 99);
+    font-size: 32px;
+    color: var(--cor-secundaria);
     font-family: 'Oswald', sans-serif;
     margin: 10px 25px 10px 25px ;
-    background-color: #CCCCCC;
+    background-color: var(--cor-neutra);
+    border: 1px solid var(--cor-neutra);
+    ;
 }
 
 .linguagens{
-    text-align: center;
-    font-size: 23px;
-    color: rgb(23, 56, 99);
-    font-family: 'Oswald', sans-serif;
-    background-color: #CCCCCC;
+    background-color: var(--cor-neutra);
     display: flex;
     flex-direction: row;
     padding: 10px 10px;
@@ -114,6 +119,7 @@ main{ /** Classe para personalização do main */
     margin: 0 auto;
     flex-wrap: wrap;
     flex: 1 1 300px;
+    
 }
 
 .imagem{
@@ -122,7 +128,7 @@ main{ /** Classe para personalização do main */
 }
 
 .rodape{
-    background: #153457;
+    background: var(--cor-tercearia);
     display: block;
     padding: 55px 55px;
     text-align: center;
@@ -133,19 +139,30 @@ main{ /** Classe para personalização do main */
 }
 
 .contato{
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
+    background: var(--cor-tercearia);
+}
+
+.ctti{
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    background: var(--cor-tercearia);
 }
 
 .ctt{
-    padding: 25px;
+    background: var(--cor-tercearia);
+    text-align: center;
     font-size: 0px;
-    width: 75px;
-    height: 75px;
 }
 
-.ctt a{
+.drt{
     text-align: center;
+    font-family: 'Inter', sans-serif;
+
+
 }
