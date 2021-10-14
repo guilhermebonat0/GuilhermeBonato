@@ -123,13 +123,31 @@ main{ /** Classe para personalização do main */
 }
 
 .rodape{
-    background: rgb(21, 52, 87);
+    background: #153457;
     display: block;
-    padding: 5px 5px;
+    padding: 55px 55px;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 36px;
     color: #FFF;
-    font-family: 'Inter', sans-serif 
+    font-family: 'Inter', sans-serif
+}
+
+.contato{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.ctt{
+    padding: 25px;
+    font-size: 0px;
+    width: 75px;
+    height: 75px;
+}
+
+.ctt a{
+    text-align: center;
 
 }
